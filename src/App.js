@@ -34,7 +34,7 @@ function App() {
   goToNextPage = () =>
     this.setState(state => ({ pageNumber: state.pageNumber + 1 }));
 
-  render() {
+  //render() {
     const { pageNumber, numPages } = this.state;
 
     return (
@@ -58,9 +58,9 @@ function App() {
         </p>
       </div>
     );
-  }
-
+ // }
 }
+
 
 export default App;
 
